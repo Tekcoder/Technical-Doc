@@ -1,0 +1,7 @@
+@media (min-width:1025px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+}
