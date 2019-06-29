@@ -1,7 +1,41 @@
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   #navbar {
     display: flex;
     flex-direction: column;
     position: fixed;
   }
+}
+
+body {
+  background-color: gray;
+  width: 70%;
+}
+
+nav {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+nav a {
+  padding-bottom: 30px;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+nav header {
+  align-content: center;
+}
+
+section header {
+  border: 1px solid black;
+  color: green;
+  width: 60px;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+.main-section header {
+  margin-top: 50;
 }
